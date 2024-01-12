@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./weather4.jpg');
+}
+
+.container {
+    width: 400px; /* Reduced width */
+    margin: 100px auto;
+    padding: 20px; /* Adjusted padding */
+}
+
+.weather-box {
+    background-color: rgba(59, 56, 56, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.weather-box h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.city-input {
+    height: 3rem;
+    width: 70%;
+    background: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    height: 3rem;
+    width: 70%;
+    background: #0548b5;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.results {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    height: auto; /* Allow height to adjust dynamically */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.display {
+    text-align: center;
+    color: #16a864;
+}
+
+.wrapper {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh; /* Increased height */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
